@@ -1,0 +1,8 @@
+# * tells Git to ignore everything.
+# !*.* tells Git not to ignore anything that has a dot (like .cpp, .h, .txt).
+# !*/ tells Git not to ignore directories.
+
+*
+!*.*
+!*/
+*.exe
